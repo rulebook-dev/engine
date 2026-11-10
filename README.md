@@ -4,7 +4,7 @@
 
 The engine behind [Rulebook](https://www.rulebook.tech): it scores an AI support bot, attacks it with sneaky customers, fixes its rule sheet and trains it. It runs on your own computer with your own Claude, ChatGPT or Gemini key.
 
-![Node](https://img.shields.io/badge/node-20%2B-1f6feb?labelColor=eaf2ff)
+![Node](https://img.shields.io/badge/node-22%2B-1f6feb?labelColor=eaf2ff)
 ![License: FSL-1.1-ALv2](https://img.shields.io/badge/license-FSL--1.1--ALv2-1f6feb?labelColor=eaf2ff)
 ![AIs](https://img.shields.io/badge/AIs-Claude%20%C2%B7%20ChatGPT%20%C2%B7%20Gemini-1f6feb?labelColor=eaf2ff)
 [![Tests](https://github.com/rulebook-dev/engine/actions/workflows/test.yml/badge.svg)](https://github.com/rulebook-dev/engine/actions/workflows/test.yml)

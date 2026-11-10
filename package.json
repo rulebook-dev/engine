@@ -9,7 +9,7 @@
   "types": "dist/index.d.ts",
   "bin": { "rulebook": "dist/cli.js" },
   "files": ["dist", "LICENSE.md"],
-  "engines": { "node": ">=20" },
+  "engines": { "node": ">=22" },
   "scripts": {
     "build": "tsc",
     "prepare": "tsc",
