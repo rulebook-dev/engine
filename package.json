@@ -1,0 +1,26 @@
+{
+  "name": "@rulebook-dev/engine",
+  "version": "0.1.0",
+  "description": "The engine behind Rulebook: score, break, fix and train an AI support bot.",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://www.rulebook.tech",
+  "repository": "github:rulebook-dev/engine",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "rulebook": "dist/cli.js" },
+  "files": ["dist", "LICENSE.md"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "test": "tsc && node --test test/engine.test.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "typescript": "^5"
+  }
+}
