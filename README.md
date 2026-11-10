@@ -154,4 +154,4 @@ npm test          # builds, then runs every feature against the fake AI in test/
 
 [FSL-1.1-ALv2](LICENSE.md). You can read, run and change this code for your own bots, for research and for client work. You can't offer it, or something built from it, as a competing product or service. Two years after each version is published, that version becomes Apache 2.0.
 
-Questions or problems: rulebook.tech@gmail.com. Security reports: see [SECURITY.md](SECURITY.md).
+Questions or problems: hello@rulebook.tech. Security reports: see [SECURITY.md](SECURITY.md).

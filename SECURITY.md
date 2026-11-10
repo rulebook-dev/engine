@@ -2,7 +2,7 @@
 
 ## Reporting a problem
 
-Email **rulebook.tech@gmail.com** with "Security" in the subject. Please include what you found, how to reproduce it, and what someone could do with it. Don't open a public issue for a security problem.
+Email **hello@rulebook.tech** with "Security" in the subject. Please include what you found, how to reproduce it, and what someone could do with it. Don't open a public issue for a security problem.
 
 We reply within 3 working days and keep you posted until it's fixed. If you'd like credit, we'll name you in the changelog.
 
