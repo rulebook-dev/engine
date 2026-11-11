@@ -82,6 +82,20 @@ See [docs/REFERENCE.md](docs/REFERENCE.md#source) for what each source file does
 | [Changelog](CHANGELOG.md) | what changed in each version |
 | [Contributing](CONTRIBUTING.md) | reporting bugs, suggesting changes, running the tests |
 
+## roadmap
+
+Planned, not built yet:
+
+- **Rulebook judge model.** Our own model, trained on millions of scored support conversations, to grade and attack bots faster and cheaper than renting a general AI.
+- **Live monitoring.** Connect Zendesk, Intercom or Freshdesk, score every real customer chat as it happens, and alert the team the moment the bot slips.
+- **Voice agent testing.** Simulated phone callers with real voices, accents, background noise and interruptions, aimed at AI phone agents.
+- **Customer simulator.** Thousands of AI customer personas running against a bot around the clock before every release.
+- **Autopilot.** Rulebook finds a failure, writes the fix, rolls it out to a small share of chats first and rolls it back on its own if things get worse.
+- **The Rulebook Index.** A monthly public leaderboard of how well-known companies' support bots hold up.
+- **Rulebook Certified.** Audits with human expert review, so companies can show their bot meets rules like the EU AI Act.
+
+These are big features that need serious compute, infrastructure and people, so they depend on funding.
+
 ## develop
 
 ```bash
