@@ -44,7 +44,7 @@ Add `--facts facts.txt` to any command to give the judge your FAQ, policies and 
 ## Use it in code
 
 ```bash
-npm install github:rulebook-dev/engine
+npm install @rulebook-dev/engine
 ```
 
 ```ts

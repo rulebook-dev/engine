@@ -1,9 +1,10 @@
-<img src="assets/cover.png" alt="Rulebook: take your AI support bot from 4/10 to 10/10">
+<img src="https://raw.githubusercontent.com/rulebook-dev/engine/main/assets/cover.png" alt="Rulebook: take your AI support bot from 4/10 to 10/10">
 
 # Rulebook engine
 
 The engine behind [Rulebook](https://www.rulebook.tech): it scores an AI support bot, attacks it with sneaky customers, fixes its rule sheet and trains it. It runs on your own computer with your own Claude, ChatGPT or Gemini key.
 
+[![npm](https://img.shields.io/npm/v/@rulebook-dev/engine?color=1f6feb&labelColor=eaf2ff)](https://www.npmjs.com/package/@rulebook-dev/engine)
 ![Node](https://img.shields.io/badge/node-22%2B-1f6feb?labelColor=eaf2ff)
 ![License: FSL-1.1-ALv2](https://img.shields.io/badge/license-FSL--1.1--ALv2-1f6feb?labelColor=eaf2ff)
 ![AIs](https://img.shields.io/badge/AIs-Claude%20%C2%B7%20ChatGPT%20%C2%B7%20Gemini-1f6feb?labelColor=eaf2ff)
@@ -14,6 +15,15 @@ A support bot is controlled by its **rule sheet**: the hidden instructions it ge
 This repo is the part that does the thinking: the judge, the attacks, the fixer, the trainer and the chat reader, with the same prompts and scoring as rulebook.tech. The website adds teams, a dashboard, history and sending changes to your engineers as a GitHub pull request.
 
 ## quick start
+
+Run it straight from npm on your own rule sheet:
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...      # or OPENAI_API_KEY, or GEMINI_API_KEY
+npx @rulebook-dev/engine break my-rule-sheet.txt
+```
+
+Or clone it to try the examples and read every prompt:
 
 ```bash
 git clone https://github.com/rulebook-dev/engine.git

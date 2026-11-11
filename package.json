@@ -2,9 +2,27 @@
   "name": "@rulebook-dev/engine",
   "version": "0.1.0",
   "description": "The engine behind Rulebook: score, break, fix and train an AI support bot.",
+  "keywords": [
+    "ai",
+    "llm",
+    "chatbot",
+    "support-bot",
+    "customer-support",
+    "evals",
+    "red-teaming",
+    "prompt-engineering",
+    "system-prompt",
+    "claude",
+    "chatgpt",
+    "gemini"
+  ],
   "license": "SEE LICENSE IN LICENSE.md",
   "homepage": "https://www.rulebook.tech",
-  "repository": "github:rulebook-dev/engine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rulebook-dev/engine.git"
+  },
+  "bugs": "https://github.com/rulebook-dev/engine/issues",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
@@ -33,5 +51,8 @@
     "eslint": "^9.39.5",
     "typescript": "^5",
     "typescript-eslint": "^8.72.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
