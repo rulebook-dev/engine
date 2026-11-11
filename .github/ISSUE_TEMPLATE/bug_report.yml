@@ -1,0 +1,32 @@
+name: Bug report
+description: Something doesn't work the way the docs say it should
+labels: [bug]
+body:
+  - type: textarea
+    id: command
+    attributes:
+      label: Command
+      description: The command you ran. Leave out API keys.
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected, and what happened instead. Paste the output if there is any.
+    validations:
+      required: true
+  - type: input
+    id: ai
+    attributes:
+      label: AI
+      description: Which AI and model your bot and judge ran on
+      placeholder: "bot: claude-sonnet-5, judge: claude-sonnet-5"
+  - type: input
+    id: env
+    attributes:
+      label: Node version and OS
+      placeholder: "Node 22.12, Windows 11"
+    validations:
+      required: true
